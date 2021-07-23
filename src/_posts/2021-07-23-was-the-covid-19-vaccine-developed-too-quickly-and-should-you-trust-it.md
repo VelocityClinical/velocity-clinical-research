@@ -2,7 +2,8 @@
 layout: post
 title: Was the COVID-19 vaccine developed too quickly and should you trust it?
 post_date: 2021-07-23 00:00:00
-featured_image: /uploads/anti-vax-banner-full.jpg
+featured_image: >-
+  /uploads/was-the-covid-19-vaccine-developed-too-quickly-and-should-you-trust-it/anti-vax-banner-full.jpg
 author: Dr Paul Evans, CEO of Velocity Clinical Research
 summary_text:
 source:
