@@ -23,7 +23,7 @@ In this article I’ll discuss how it was thanks to the people, or in my opinion
 
 **The vaccine was developed too quickly**
 
-> For possibly the first time ever, finding a solution to a healthcare problem, a COVID vaccine, became everyone’s focus. That meant the same amount of work that is involved in the development of any new drug or vaccine was done, but at a much faster pace because it was everyone’s priority. That has never happened before.
+> *For possibly the first time ever, finding a solution to a healthcare problem, a COVID vaccine, became everyone’s focus. That meant the same amount of work that is involved in the development of any new drug or vaccine was done, but at a much faster pace because it was everyone’s priority. That has never happened before.*
 
 Think of it like taking an Uber somewhere and instead of being stuck in traffic and waiting at red lights, the roads are clear and traffic lights are green all the way. The same amount of work is involved in getting to your destination, but it takes you less time to get there.
 
