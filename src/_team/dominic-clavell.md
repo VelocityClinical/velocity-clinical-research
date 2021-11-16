@@ -1,7 +1,7 @@
 ---
 layout: team
 name: Dominic Clavell
-image: /uploads/dominic-clavell-2-1.jpg
+image: /uploads/dominic-clavell-2-2.jpg
 role: Executive Vice President and General Manager, Europe
 company: Velocity Clinical Research
 phone:
