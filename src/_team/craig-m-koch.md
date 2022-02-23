@@ -1,7 +1,7 @@
 ---
 layout: team
 name: Craig M. Koch
-image: /uploads/cropped-v3-craig-20190226-dsc9402-final.jpg
+image: /uploads/craig-headshot-1-2-2022.jpg
 role: Executive Vice President, Business Development
 company:
 phone: +1 410.490.0676
