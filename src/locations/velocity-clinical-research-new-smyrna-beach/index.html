@@ -3,55 +3,59 @@ layout: location
 title: NSB Home
 meta:
 location_team:
-  - name: Margaret Chang, MD
-    role: Principal Investigator
-    image: /uploads/margaret-chang.jpg
-    bio_html: >-
-      <p>Margaret Chang is a board certified Family Medicine Physician with more
-      than 25 years experience, including 10 years conducting clinical trials
-      She received her BA from Rice University &amp; went to the University of
-      Miami School of Medicine.&nbsp; She did her Family Practice Residency at
-      Halifax Medical.&nbsp;</p><p>She enjoys spending time with family and
-      friends, participating in church, bicycling, playing tennis, and
-      golfing.</p>
-  - name: Patricia Fredette, MD
-    role: Principal Investigator
-    image: /uploads/bfh8500.jpg
-    bio_html: >-
-      <p>Patricia Fredette is a board certified family medicine physician with
-      more than 20 years experience, including 9 years conducting clinical
-      trials. She got her BA from University of California Santa Barbara &amp;
-      then went on to medical school at Medical College of Wisconsin.&nbsp; She
-      came south to sunny Florida to do her family medicine residency at Halifax
-      Medical Center.</p><p>She is married and has 3 daughters.&nbsp; She enjoys
-      running, traveling, being outdoors, and spending time with her family.</p>
-  - name: Sandra Buchanan, MD
-    role: Principal Investigator
-    image: /uploads/bfh8488.jpg
-    bio_html: >-
-      <p>Sandra Buchanan is a board certified Family Physician, with 2 years of
-      experience in clinical research.&nbsp;</p><p>She went to University of
-      Miami and received her BS. She then attended University of Florida College
-      of Medicine.&nbsp; She completed her Family Practice Residency at Halifax
-      medical center.</p><p>She is married and has 2 children. She enjoys
-      bowling, golfing, rowing and spending time with her family.&nbsp;</p>
-  - name: Frank Garcia
-    role: Site Director
-    image: /uploads/102219-coloretina-frankgarcia-final.jpg
-    bio_html: >-
-      <p>Frank Garcia brings over 16 years of clinical research experience to
-      the New Smyrna Beach site. Frank is passion about efficiency and
-      innovation in preforming clinical trials. He empowers his team to
-      continually meet milestones with patient safety and quality data in
-      mind.&nbsp;&nbsp;</p>
+- name: Margaret Chang, MD
+role: Principal Investigator
+image: /uploads/margaret-chang.jpg
+bio_html: >-
+<p>Margaret Chang is a board certified Family Medicine Physician with more
+  than 25 years experience, including 10 years conducting clinical trials
+  She received her BA from Rice University &amp; went to the University of
+  Miami School of Medicine.&nbsp; She did her Family Practice Residency at
+  Halifax Medical.&nbsp;</p>
+<p>She enjoys spending time with family and
+  friends, participating in church, bicycling, playing tennis, and
+  golfing.</p>
+- name: Patricia Fredette, MD
+role: Principal Investigator
+image: /uploads/bfh8500.jpg
+bio_html: >-
+<p>Patricia Fredette is a board certified family medicine physician with
+  more than 20 years experience, including 9 years conducting clinical
+  trials. She got her BA from University of California Santa Barbara &amp;
+  then went on to medical school at Medical College of Wisconsin.&nbsp; She
+  came south to sunny Florida to do her family medicine residency at Halifax
+  Medical Center.</p>
+<p>She is married and has 3 daughters.&nbsp; She enjoys
+  running, traveling, being outdoors, and spending time with her family.</p>
+- name: Sandra Buchanan, MD
+role: Principal Investigator
+image: /uploads/bfh8488.jpg
+bio_html: >-
+<p>Sandra Buchanan is a board certified Family Physician, with 2 years of
+  experience in clinical research.&nbsp;</p>
+<p>She went to University of
+  Miami and received her BS. She then attended University of Florida College
+  of Medicine.&nbsp; She completed her Family Practice Residency at Halifax
+  medical center.</p>
+<p>She is married and has 2 children. She enjoys
+  bowling, golfing, rowing and spending time with her family.&nbsp;</p>
+- name: Frank Garcia
+role: Site Director
+image: /uploads/102219-coloretina-frankgarcia-final.jpg
+bio_html: >-
+<p>Frank Garcia brings over 16 years of clinical research experience to
+  the New Smyrna Beach site. Frank is passion about efficiency and
+  innovation in preforming clinical trials. He empowers his team to
+  continually meet milestones with patient safety and quality data in
+  mind.&nbsp;&nbsp;</p>
 _assets:
-  - image: /uploads/locations/austin/cdc-UC9_itYaafM-unsplash.jpg
-  - image: /uploads/locations/austin/Mask-Group-68.jpg
-  - image: /uploads/locations/austin/Mask-Group-65.jpg
-  - image: /uploads/locations/austin/Mask-Group-66.jpg
-  - image: /uploads/locations/austin/Mask-Group-66.jpg
-  - image: /uploads/locations/austin/Mask-Group-4.jpg
-  - image: /uploads/locations/austin/Shot-About.jpg
+- image: /uploads/locations/austin/cdc-UC9_itYaafM-unsplash.jpg
+- image: /uploads/locations/austin/Mask-Group-68.jpg
+- image: /uploads/locations/austin/Mask-Group-65.jpg
+- image: /uploads/locations/austin/Mask-Group-66.jpg
+- image: /uploads/locations/austin/Mask-Group-66.jpg
+- image: /uploads/locations/austin/Mask-Group-4.jpg
+- image: /uploads/locations/austin/Shot-About.jpg
 ---
 
 {% include locations/location-logic.html %}
@@ -64,7 +68,8 @@ _assets:
         <div class="shadow p-5 bg-white rounded animate fade-up">
           <div class="row align-items-center">
             <div class="col-6 mx-auto col-lg-4">
-              <div class="bg-image aspect-1x1 rounded-circle mb-3 mb-lg-0" style="background-image: url({{ location.featured_image }})"></div>
+              <div class="bg-image aspect-1x1 rounded-circle mb-3 mb-lg-0"
+                style="background-image: url({{ location.featured_image }})"></div>
             </div>
             <div class="col-lg-8">
               <h4 class="font-weight-bold mb-0">{{ location.title }}</h4>
@@ -89,7 +94,11 @@ _assets:
           </h2>
           <div class="editable animate fade-up">
             <h2>By Participating in Clinical Research</h2>
-            <p>People who volunteer to participate in clinical trials are key to the advancement of medical research. Our sites are dedicated to conducting clinical trials with an emphasis on patient care. Our physician investigators and other members of our research teams are extensively trained in different medical subspecialties as well as the complex field of clinical research. We strive to provide our study participants and sponsors a high quality, efficient and care-directed clinical trial experience.</p>
+            <p>People who volunteer to participate in clinical trials are key to the advancement of medical research.
+              Our sites are dedicated to conducting clinical trials with an emphasis on patient care. Our physician
+              investigators and other members of our research teams are extensively trained in different medical
+              subspecialties as well as the complex field of clinical research. We strive to provide our study
+              participants and sponsors a high quality, efficient and care-directed clinical trial experience.</p>
           </div>
         </div>
       </div>
@@ -108,7 +117,9 @@ _assets:
           Velocity Clinical Research, New Smyrna Beach
         </h2>
         <div class="animate fade-up editable">
-          <p>Velocity Clinical Research, New Smyrna Beach, formerly location lorem name, is part of the Velocity Clinical Research Organization, a wholly owned Site Organization, providing excellence in patient care, high quality data and fully integrated research sites.</p>
+          <p>Velocity Clinical Research, New Smyrna Beach, formerly location lorem name, is part of the Velocity
+            Clinical Research Organization, a wholly owned Site Organization, providing excellence in patient care, high
+            quality data and fully integrated research sites.</p>
         </div>
       </div>
     </div>
@@ -122,7 +133,9 @@ _assets:
           Our Mission
         </h2>
         <div class="text-center editable animate fade-up">
-          <p>Velocity&rsquo;s mission is to bring innovative medical treatments to patients. We are committed to making clinical trials succeed by generating high quality data from as many patients as possible, as quickly as possible while providing exemplary patient care at every step.</p>
+          <p>Velocity&rsquo;s mission is to bring innovative medical treatments to patients. We are committed to making
+            clinical trials succeed by generating high quality data from as many patients as possible, as quickly as
+            possible while providing exemplary patient care at every step.</p>
         </div>
       </div>
     </div>
@@ -132,9 +145,13 @@ _assets:
   <div class="container">
     <div class="row">
       <div class="col-lg-4 animate blur">
-        <div class="bg-image aspect-4x3 mb-3 fade-in" data-lazy-type="bg-image" data-lazy-src="{{ page._assets[5].image }}" data-cms-editor-link="cloudcannon:#_assets[5].image" data-cms-editor-link-style="modal">
+        <div class="bg-image aspect-4x3 mb-3 fade-in" data-lazy-type="bg-image"
+          data-lazy-src="{{ page._assets[5].image }}" data-cms-editor-link="cloudcannon:#_assets[5].image"
+          data-cms-editor-link-style="modal">
         </div>
-        <div class="bg-image aspect-4x3 mb-3 fade-in" data-lazy-type="bg-image" data-lazy-src="{{ page._assets[6].image }}" data-cms-editor-link="cloudcannon:#_assets[6].image" data-cms-editor-link-style="modal">
+        <div class="bg-image aspect-4x3 mb-3 fade-in" data-lazy-type="bg-image"
+          data-lazy-src="{{ page._assets[6].image }}" data-cms-editor-link="cloudcannon:#_assets[6].image"
+          data-cms-editor-link-style="modal">
         </div>
       </div>
       <div class="col-lg-7 ml-lg-auto">
@@ -145,9 +162,18 @@ _assets:
           Conducting Clinical Trials Since 2010
         </h2>
         <div class="animate fade-up editable">
-          <p>Velocity Clinical Research, New Smyrna Beach was founded in 2010 as Riverside Clinical Research, an independent dedicated research center. New Smyrna Beach has a wide range of expertise including vaccines, orthopedic, gastroenterology, neurology trials, and more. Velocity NSB staff prides themselves on being efficient and quality driven. This leads to a great experience for all those involved in clinical trials.</p>
-          <p>The site is conveniently located along a major highway on Florida&rsquo;s east coast. Ample parking is available for patients, as well as patient amenities such as theatre room on site. The site is 3 miles away from the local hospital.</p>
-          <p>The New Smyrna Beach team is committed to being a resource for study volunteers, to providing the highest quality of patient care with compassion and kindness and to advancing medicine though research. By becoming part of the Velocity Clinical Research organization in 2021, they added new efficiencies and integration to their already comprehensive approaches to conducting clinical trials.</p>
+          <p>Velocity Clinical Research, New Smyrna Beach was founded in 2010 as Riverside Clinical Research, an
+            independent dedicated research center. New Smyrna Beach has a wide range of expertise including vaccines,
+            orthopedic, gastroenterology, neurology trials, and more. Velocity NSB staff prides themselves on being
+            efficient and quality driven. This leads to a great experience for all those involved in clinical trials.
+          </p>
+          <p>The site is conveniently located along a major highway on Florida&rsquo;s east coast. Ample parking is
+            available for patients, as well as patient amenities such as theatre room on site. The site is 3 miles away
+            from the local hospital.</p>
+          <p>The New Smyrna Beach team is committed to being a resource for study volunteers, to providing the highest
+            quality of patient care with compassion and kindness and to advancing medicine though research. By becoming
+            part of the Velocity Clinical Research organization in 2021, they added new efficiencies and integration to
+            their already comprehensive approaches to conducting clinical trials.</p>
         </div>
       </div>
     </div>
@@ -161,7 +187,11 @@ _assets:
           Our Experienced Research Team
         </h2>
         <div class="text-center animate fade-up editable">
-          <p>The Velocity New Smyrna Beach team of physician investigators and clinical research professionals are experienced clinical researchers. All physicians are board certified in their specialty area(s) and all research staff is trained in clinical research regulations, including GCP and HIPAA. Training records and certifications are maintained. Our clinical team is dedicated to conducting quality research in a professional and caring environment and strives on collecting quality data.</p>
+          <p>The Velocity New Smyrna Beach team of physician investigators and clinical research professionals are
+            experienced clinical researchers. All physicians are board certified in their specialty area(s) and all
+            research staff is trained in clinical research regulations, including GCP and HIPAA. Training records and
+            certifications are maintained. Our clinical team is dedicated to conducting quality research in a
+            professional and caring environment and strives on collecting quality data.</p>
         </div>
       </div>
     </div>
