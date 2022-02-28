@@ -76,6 +76,7 @@ facility_images:
 _assets:
   - image: /uploads/locations/austin/Mask-Group-86.jpg
 ---
+
 {% include locations/location-logic.html %}
 {% include locations/hero-no-overlay.html %}
 
@@ -136,6 +137,7 @@ _assets:
       {% for image in page.facility_images %}
         <div class="col-lg-3 animate fade-up">
           <div class="editable bg-image aspect-5x4 rounded mb-3 fade-in" data-lazy-type="bg-image" data-lazy-src="{{ image }}" style="background-image: url({{ image }})">
+            
           </div>
         </div>
       {% endfor %}
@@ -143,7 +145,7 @@ _assets:
     <div class="row">
       <div class="col-lg-10 mx-lg-auto">
         <div class="editable animate fade-up">
-          <p>The Banning facility is designed for the ease and comfort of study participants and to allow optimal efficiencies in performing clinical trials. All Velocity sites include:/p&gt;</p>
+          <p>The Banning facility is designed for the ease and comfort of study participants and to allow optimal efficiencies in performing clinical trials. All Velocity sites include:</p>
         </div>
       </div>
     </div>
