@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Preventing Alzheimer's disease is goal of breakthrough therapy
-post_date:
+post_date: 2022-03-01 00:00:00
 featured_image: /uploads/aacm-news-page2.jpg
 categories:
 author:
