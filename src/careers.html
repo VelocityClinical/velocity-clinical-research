@@ -166,10 +166,10 @@ _assets:
     <div class="row">
       <div class="col-12">
         <div class="responsive-card-deck cards-lg-3">
-          {% for job in site.data.jobs %}
+          {% for job in site.data.jobs limit:6 %}
           <a href="{{ job.link }}" class="card bg-primary bg-image aspect-auto text-white mb-4 animate fade-up">
             <div class="card-body p-4">
-              <h5 class="text-white font-weight-bolder mb-0 mt-5 mb-2">{{ job.title }}</h5>
+              <h5 class="text-white font-weight-bolder mb-0 mt-3 mb-2">{{ job.title }}</h5>
               <p class="text-white d-flex align-items-center">Learn more <i class="ri-arrow-right-s-line"></i></p>
             </div>
           </a>
