@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Careers
+title: CareersX
 meta:
 hero:
   - image: /uploads/istock-118054927722.jpg
@@ -20,47 +20,36 @@ statistic_section:
       - number: 125
         description: Investigators across multiple therapeutic areas
 capabilities:
-  - title: Wholly owned clinical research sites
+  - title: Health & Wellness Benefits
     icon_image: /img/capabilities/sites-icon.svg
     list_item:
-      - title: All research staff at our sites are employees of Velocity
+      - title: Medical, Dental, Vision, HSA and FSA plans
       - title: >-
-          Ability to focus hiring of experienced researchers who are dedicated
-          to excellent patient care
-      - title: Allow all employees to receive same training and certifications
-  - title: Fully Integrated Model
+          Employer contributions are between 55 - 80% based on the coverage level and plan you choose
+      - title: Company contributions to Health Savings Account
+  - title: 401k Eligibility & Company Match
     icon_image: /img/capabilities/singlepoint-icon.svg
     list_item:
-      - title: All sites operate under a single management structure
-      - title: >-
-          Single point of contact for Operations, Business, and Patient Recruitment
+      - title: Velocity Clinical Research matches 100% of the first 3% you contribute and 50% on the next 2% you contribute
+      - title: Immediate eligibility and automatic enrollment at 5% contribution
       - title: One finance structure for all invoicing and payment activities
-      - title: Single CTMS system across all sites
-  - title: High level of consistency across sites for operations and data quality
+  - title: Paid Time Off & Company Holidays
     icon_image: /img/capabilities/consistency-icon.svg
     list_item:
-      - title: A uniform set of SOPs within a consistent QMS across all sites.
-      - title: Integrated Medical records and recruitment systems
-      - title: >-
-          Core team of Site Directors who work closely to ensure local site
-          compliance
-  - title: Expedited Study Start-up
+      - title: Paid-Time-Off starting at 3 weeks per year and growing with company tenure
+      - title: 10 Company Paid Holidays each calendar year
+  - title: Life Insurance & EAP
     icon_image: /img/capabilities/expedited-icon.svg
     list_item:
-      - title: Single budget and contract for all Velocity sites in your study
-      - title: 48 hour turnaround on contract/budget responses
-      - title: All sites utilize Central IRB
-  - title: Research capable facilities customized for regulatory requirements
+      - title: 100% Company paid Life Insurance policy of two-times your annual salary
+      - title: 100% Company paid Short-Term and Long-Term Disability benefit
+      - title: Optional Insurance coverage for yourself and any dependents
+      - title: Complimentary Emergency Assistance Plan (EAP)
+  - title: Site Incentive Bonus Plan
     icon_image: /img/capabilities/research-icon.svg
     list_item:
-      - title: >-
-          Monitored drug storage rooms for all temperature storage needs with
-          locked, limited access
-      - title: >-
-          CLIA waived labs with refrigerated centrifuges and incubators and
-          back-up power supplies
-      - title: Active IBC registrations
-      - title: Some sites with overnight capabilities for pharmacokinetic trials
+      - title: Paid twice annually
+      - title: Based on company and site performance
   - title: Multi-specialty research capabilities
     icon_image: /img/capabilities/multispecialty-icon.svg
     list_item:
@@ -112,22 +101,13 @@ _assets:
     <div class="row">
       <div class="col-lg-6">
         <h3 class="subtitle editable animate fade-up">
-          Capabilities
+          CareersX
         </h3>
         <div class="editable animate fade-up">
-          <h2>Ensuring Enrollment Goals with an Integrated Approach</h2>
-          <p>Achieving timely study start-up, patient recruitment, and retaining patients to obtain all study data
-            remain key challenges for Sponsors and CROs. Velocity Clinical Research provides a consistent, scalable
-            approach to tackling these challenges. By offering access to our wholly owned research sites and providing
-            central support and contacts for many operational activities, we make your job easier.</p>
-          <p>We are committed to rapid responsiveness from initial feasibility and contracting to patient enrollment and
-            study close-out. Our uniform cross-site processes are designed to deliver patients and data as quickly as
-            possible without sacrificing exemplary data quality and patient care.</p>
-          <p>Velocity sites prioritize positive patient experiences and outcomes and we work hard to deliver outstanding
-            patient care. Engaging patients and creating an environment of comfort, communication and medical care
-            enhances our ability to retain patients and to elicit referrals for future studies.</p>
-          <p>Our company can help you achieve your patient enrollment goals with the assurances of high quality data and
-            an experienced team.</p>
+          <h2>Committed to Improving and Advancing the Human Condition.</h2>
+          <p>At Velocity, we align our values and behaviors to give our associates the best chance of delivering on our brand promise: to bring innovative medical treatments to patients. We are committed to making clinical trials succeed by generating high quality data from as many patients as possible, as quickly as possible while providing exemplary patient care at every step.</p>
+          <p>As an employee of Velocity, you are the most integral part of our mission. For talented candidates who perform at a high level, Velocity will invest to support career advancement and reward performance.</p>
+          <p>Whether you are new to clinical research or are an industry veteran, we invite you to apply to Velocity.</p>
         </div>
       </div>
       <div class="col-lg-6">
@@ -152,7 +132,7 @@ _assets:
     <div class="row">
       <div class="col-12">
         <h2 class="text-center editable animate fade-up">
-          Velocity Capabilities
+          Full-Time Employee Benefits
         </h2>
       </div>
     </div>
@@ -167,7 +147,7 @@ _assets:
   <img src="/img/dots3.png" class="dots bottom-left overlap-bottom" alt="Dot image" />
 </section>
 {% for stat_section in page.statistic_section %}
-<section>
+<section class="d-none">
   <div class="container">
     <div class="row">
       <div class="col-12">
@@ -227,7 +207,7 @@ _assets:
         <div class="responsive-card-deck cards-lg-3">
           {% for specialty in site.specialties %}
           <a href="{{ specialty.url }}" class="card bg-image aspect-auto text-white mb-4 animate fade-up"
-            style="background-image: url({{ specialty.tile_bg_image}})">
+            style="background-image: url('{{ specialty.tile_bg_image}}');">
             <div class="card-body p-4">
               <h5 class="text-white font-weight-bolder mb-0 mt-5 mb-2">{{ specialty.title }}</h5>
               <p class="text-white d-flex align-items-center">Learn more <i class="ri-arrow-right-s-line"></i></p>
