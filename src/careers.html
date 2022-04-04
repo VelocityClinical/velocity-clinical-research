@@ -160,17 +160,16 @@ _assets:
       <div class="col-12">
         <div class="text-center">
           <p><img class="img-fluid my-5" alt="Dots image" src="/img/capabilities/dots.png" /></p>
-        </div>
+        </div> 
       </div>
     </div>
     <div class="row">
       <div class="col-12">
         <div class="responsive-card-deck cards-lg-3">
-          {% for specialty in site.specialties %}
-          <a href="{{ specialty.url }}" class="card bg-image aspect-auto text-white mb-4 animate fade-up"
-            style="background-image: url('{{ specialty.tile_bg_image}}');">
+          {% for job in site.data.jobs %}
+          <a href="{{ job.link }}" class="card bg-primary bg-image aspect-auto text-white mb-4 animate fade-up">
             <div class="card-body p-4">
-              <h5 class="text-white font-weight-bolder mb-0 mt-5 mb-2">{{ specialty.title }}</h5>
+              <h5 class="text-white font-weight-bolder mb-0 mt-5 mb-2">{{ job.title }}</h5>
               <p class="text-white d-flex align-items-center">Learn more <i class="ri-arrow-right-s-line"></i></p>
             </div>
           </a>
@@ -180,22 +179,6 @@ _assets:
     </div>
   </div>
 </section>
-{% for list_section in page.list_section %}
-<section class="bg-light">
-  <div class="container">
-
-    {% if page.list_section.title %}
-    <div class="row">
-      <div class="col-12">
-        <div class="text-center">
-          <h3 class="animate fade-up">{{ list_section.title }}</h3>
-        </div>
-      </div>
-    </div>
-    {% endif %}
-  </div>
-</section>
-{% endfor %}
 <section class="">
   <div class="container">
     <div class="row">
