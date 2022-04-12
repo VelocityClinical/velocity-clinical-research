@@ -82,7 +82,7 @@ _assets:
   - image: /uploads/photo-square-doctor.jpg
 ---
 
-{% include cta-bar.html %}
+{% include cta-career-bar.html %}
 {% include hero.html %}
 <section>
   <div class="container">
@@ -166,10 +166,11 @@ _assets:
     <div class="row">
       <div class="col-12">
         <div class="responsive-card-deck cards-lg-3">
-          {% for job in site.data.jobs limit:6 %}
+          {% for job in site.data.jobs %}
           <a href="{{ job.link }}" class="card bg-primary bg-image aspect-auto text-white mb-4 animate fade-up">
             <div class="card-body p-4">
               <h5 class="text-white font-weight-bolder mb-0 mt-3 mb-2">{{ job.title }}</h5>
+              <p class="text-white d-flex align-items-center">{{ job.location }}</p>
               <p class="text-white d-flex align-items-center">Learn more <i class="ri-arrow-right-s-line"></i></p>
             </div>
           </a>
@@ -189,6 +190,7 @@ _assets:
           </h2>
           <div class="editable animate fade-up">
             <p>Didn’t find what you are looking for? Join our talent community by visiting our <a href="https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=c3050172-4e08-4e37-bbda-693bb61d7bb8&ccId=19000101_000001&lang=en_US">Career Center</a> and by clicking on the upper right-hand corner, “Join our Talent Community”, and create your candidate profile to receive updates</p>
+            <p><a class="btn btn-secondary" href="https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=c3050172-4e08-4e37-bbda-693bb61d7bb8&ccId=19000101_000001&lang=en_US">Career Center</a></p>
           </div>
         </div>
       </div>
