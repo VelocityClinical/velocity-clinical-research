@@ -2,7 +2,8 @@
 layout: post
 title: Velocity and Ripple Science Sign Pilot Agreement for Ripple Recruit Software
 post_date: 2022-04-19 00:00:00
-featured_image: /uploads/velocityxripple.jpg
+featured_image: >-
+  /uploads/velocity-and-ripple-science-sign-pilot-agreement-for-ripple-recruit-software/ripple2.jpg
 categories:
   - Technology
 author:
