@@ -1,5 +1,5 @@
 /covid/ https://velocityclinicalresearch.com/
-/locations/velocity-clinical-research-anderson/contact https://velocitypatients.com/registration/?zip=1655%20E.%20Greenville%20Street%20%232%20Anderson%2C%20SC%2029621
+/locations/velocity-clinical-research-anderson/contact/ https://velocitypatients.com/registration/?zip=1655%20E.%20Greenville%20Street%20%232%20Anderson%2C%20SC%2029621
 /locations/velocity-clinical-research-austin/contact https://velocitypatients.com/registration/?zip=1900%20Cypress%20Creek%20Suite%20200%2C%20Cedar%20Park%2C%20TX%2078613
 /locations/velocity-clinical-research-banning/contact https://velocitypatients.com/registration/?zip=264%20N.%20Highland%20Springs%20Suite%205A%20Banning%2C%20CA%2092220
 /locations/velocity-clinical-research-boise/contact https://velocitypatients.com/registration/?zip=2950%20E.%20Magic%20View%20Dr.%20Suite%20182%20Meridian%2C%20ID%2083642
