@@ -1,3 +1,12 @@
 <div class="bg-primary d-flex align-items-center justify-content-center p-2">
-  <a href="{{ location_url }}/contact/" class="text-white d-flex align-items-center">Interested in Participating in a Clinical Trial?<i class="ri-arrow-right-s-line text-white ml-lg-5"></i></a>
+  {% if location_url contains "providence" %}
+  <a href="{{ location_url }}/contact" class="text-white d-flex align-items-center">Interested in Participating in a
+    Clinical Trial?<i class="ri-arrow-right-s-line text-white ml-lg-5"></i></a>
+  {% elsif location_url contains "dallas" %}
+  <a href="{{ location_url }}/contact" class="text-white d-flex align-items-center">Interested in Participating in a
+    Clinical Trial?<i class="ri-arrow-right-s-line text-white ml-lg-5"></i></a>
+  {% else %}
+  <a href="https://velocitypatients.com/" class="text-white d-flex align-items-center">Interested in Participating in a
+    Clinical Trial?<i class="ri-arrow-right-s-line text-white ml-lg-5"></i></a>
+  {% endif %}
 </div>
