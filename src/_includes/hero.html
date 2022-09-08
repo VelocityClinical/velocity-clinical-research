@@ -12,6 +12,9 @@
                 <p class="subtitle animate fade-up">{{ hero.subtitle }}</p>
               {% endif %}
               <h1 class="mb-0 animate fade-up">{{ hero.title }}</h1>
+              {% if hero.button %}
+              <a href="{{ hero.button_url }}" class="btn btn-cyan mt-5 animate fade-up">{{ hero.button }}</a>
+              {% endif %}
             </div>
           </div>
         </div>
