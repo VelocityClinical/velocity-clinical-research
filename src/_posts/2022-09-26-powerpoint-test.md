@@ -1,10 +1,11 @@
 ---
 layout: post
 title: PowerPoint Test
-post_date:
+post_date: 2022-09-26 00:00:00
 featured_image:
 categories:
-author:
+  - Technology
+author: Craig Koch
 summary_text:
 source:
 source_url: >-
