@@ -2,7 +2,7 @@
 layout: post
 title: Velocity U.S. Patient Survey 2022 - Print
 post_date: 2022-09-27 00:00:00
-featured_image: /uploads/velocity-u-s--patient-survey-2022---print/slide6.JPG
+featured_image: /uploads/velocity-u-s--patient-survey-2022---print/patient-survey-cover.png
 categories:
   - Patients
   - Survey
