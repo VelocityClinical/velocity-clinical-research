@@ -268,3 +268,12 @@ ul.column-list {
 
 
 // SVG Fill & Stroke Utilities
+
+#google_translate_element {
+  position: fixed;
+  top: 20px;
+  right: 0;
+  background: #fff;
+  padding: 10px;
+  z-index: 8675310
+}
