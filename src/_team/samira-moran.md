@@ -1,8 +1,7 @@
 ---
 layout: team
 name: Samira Moran
-image: >-
-  /uploads/samiramoran-vcr00686-final-workshopmedia-velocityclinicalresearch-dallasleadershipheadshots2022-wmvc-150.jpg
+image: /uploads/samiramoran-1-sq.jpg
 role: Sr. Vice President, Specialty Clinical Sites
 company:
 phone:
