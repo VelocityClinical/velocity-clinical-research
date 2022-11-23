@@ -1,9 +1,9 @@
 ---
 layout: team
 name: Craig Koch
-image: /uploads/craig-headshot-1-2-2022.jpg
+image: /uploads/craigkoch-2-sq.jpg
 role: Executive Vice President, Business Development
-company:
+company: Velocity Clinical Research
 phone: +1 410.490.0676
 linkedin_url: https://www.linkedin.com/in/craig-koch-47721875/
 ---
