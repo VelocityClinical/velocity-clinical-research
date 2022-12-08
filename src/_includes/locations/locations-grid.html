@@ -1,26 +1,3 @@
-<h2>USA</h2>
-<div class="responsive-card-deck location-cards cards-lg-4">
-  {% assign locations = site.locations | where: 'active', true | sort: 'label' %}
-  {% for location in locations %}
-    {% if location.non_usa != 'true' %}
-    <div class="card card-white mb-4 animate fade-up">
-      <div class="image-wrapper">
-        <div class="bg-image aspect-1x1 rounded-circle"
-          style="background-image: url({{ location.featured_image }})"></div>
-      </div>
-      
-      <div class="card-body text-center">
-        <p class="mb-0">{{ location.label }}</p>
-        <p class="mb-0"><strong>{{ location.title }}</strong></p>
-      </div>
-      <div class="card-footer text-center border-0 bg-transparent">
-        <a href="/locations/{{ location.slug }}" class="btn btn-primary" target="_blank">Visit Website <img src="/img/button-arrow.svg" alt="Arrow icon"></a>
-      </div>
-    </div>
-    {% endif %}
-  {% endfor %}
-</div>
-
 <h2 class="mt-5">Europe</h2>
 <div class="responsive-card-deck location-cards cards-lg-4">
   {% assign locations = site.locations | where: 'active', true | sort: 'label' %}
@@ -44,3 +21,27 @@
   {% endif %}
   {% endfor %}
 </div>
+
+<h2>USA</h2>
+<div class="responsive-card-deck location-cards cards-lg-4">
+  {% assign locations = site.locations | where: 'active', true | sort: 'label' %}
+  {% for location in locations %}
+    {% if location.non_usa != 'true' %}
+    <div class="card card-white mb-4 animate fade-up">
+      <div class="image-wrapper">
+        <div class="bg-image aspect-1x1 rounded-circle"
+          style="background-image: url({{ location.featured_image }})"></div>
+      </div>
+      
+      <div class="card-body text-center">
+        <p class="mb-0">{{ location.label }}</p>
+        <p class="mb-0"><strong>{{ location.title }}</strong></p>
+      </div>
+      <div class="card-footer text-center border-0 bg-transparent">
+        <a href="/locations/{{ location.slug }}" class="btn btn-primary" target="_blank">Visit Website <img src="/img/button-arrow.svg" alt="Arrow icon"></a>
+      </div>
+    </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
