@@ -268,3 +268,28 @@ ul.column-list {
 
 
 // SVG Fill & Stroke Utilities
+
+#translate {
+  background-color: #36c0f8;
+  padding: 6px 0;
+  text-align: center;
+}
+
+#google_translate_element {
+  padding: 0px;
+  z-index: 8675310;
+  margin:0;
+  font-size: 1px;
+  color: pink;
+  height: 24px;
+  overflow: hidden;
+}
+
+ .goog-logo-link {
+   display: none !important;
+ }
+
+
+ .goog-te-gadget {
+   color: transparent !important;
+ }

@@ -1,13 +1,12 @@
 ---
 layout: team
 name: Samira Moran
-image: /uploads/samira-moran1-2.jpg
+image: /uploads/samiramoran-1-sq.jpg
 role: Sr. Vice President, Specialty Clinical Sites
 company:
 phone:
 linkedin_url: https://www.linkedin.com/in/samira-moran-1474b6b/
 ---
-
 Samira joined Velocity Clinical Research in late 2021 as Senior Vice President of Specialty Clinical Sites after serving as President and CEO of National Research Institute. &nbsp;&nbsp; In her current role, Samira is responsible for developing and executing Velocity’s business strategy within specialist care.
 
 She is a dedicated executive with over 20 years of experience and proven track record within the pharmaceutical industry.&nbsp; Over her career, Samira has held key positions in operations, business development and strategic account leadership including 9 years with Parexel as Vice President, Early Phase.

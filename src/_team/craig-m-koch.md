@@ -1,13 +1,12 @@
 ---
 layout: team
-name: Craig M. Koch
-image: /uploads/craig-headshot-1-2-2022.jpg
+name: Craig Koch
+image: /uploads/craigkoch-2-sq.jpg
 role: Executive Vice President, Business Development
-company:
+company: Velocity Clinical Research
 phone: +1 410.490.0676
 linkedin_url: https://www.linkedin.com/in/craig-koch-47721875/
 ---
-
 Craig joined Velocity Clinical Research early in 2019 as the Vice President of Business Development.&nbsp; Craig believes that the value patients bring to developing new medicines needs to be celebrated. New medicines are not possible without clinical trial volunteers, yet too few are aware of opportunities or how they can be involved. In his role, Craig will identify new opportunities for Velocity to partner with pharmaceutical sponsors and clinical research organizations to bring new clinical trial opportunities to the patients who otherwise may go without treatment options.&nbsp;
 
 Craig earned his degree in Analytical Chemistry from the University of Delaware.&nbsp; Prior to joining Velocity, Craig served a variety of leadership roles in scientific, business management, and process improvement across contract research organizations, clinical sites, and site networks.&nbsp;
