@@ -2,7 +2,7 @@
 layout: post
 title: Velocity Acquired Meridian Clinical Research
 post_date: 2022-12-15 00:00:00
-featured_image: /uploads/velocity-acquired-meridian-clinical-research/meridian-logo-0-5x.png
+featured_image: /uploads/velocity-acquired-meridian-clinical-research/meridian-logo.jpg
 categories:
 author:
 summary_text:
