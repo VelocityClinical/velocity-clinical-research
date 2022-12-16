@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Velocity Acquired Meridian Clinical Research
+title: Velocity Acquires Meridian Clinical Research
 post_date: 2022-12-15 00:00:00
 featured_image: /uploads/velocity-acquired-meridian-clinical-research/meridian-logo.jpg
 categories:
