@@ -129,3 +129,15 @@
     animation-fill-mode: forwards;
   }
 }
+
+
+.state-svg {
+  transition: 1.5s;
+  :hover {
+    fill: #35BC4E;
+  }
+
+  &:hover .st4 {
+    fill: white;
+  }
+}
