@@ -8,7 +8,7 @@
 .dccircle {display:yes}                      /* set display to yes to show the circle for the District of Columbia, or none to hide it */
 .separator1 {stroke:#B0B0B0; stroke-width:2} /* color and width of lines around Alaska and Hawaii */
 .al, .az, .ca, .co, .fl, .id, .in, .la, .ms, .nm, .ny, .oh, .or, .ri, .sc, .tx, .ut, .wa { fill:#284497;}
-.st4{fill:red;}
+.st4{fill:#f8f9fa;}
 
 /* Individual states can be colored as follows:
 .ks,.mt,.pa {fill:#0000FF}

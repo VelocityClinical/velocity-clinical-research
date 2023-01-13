@@ -9,7 +9,10 @@
             {% if hero.subtitle %}
               <p class="subtitle animate fade-up">{{ hero.subtitle }}</p>
             {% endif %}
-            <h1 class="mb-0 animate fade-up text-white">{{ hero.title }}</h1>
+            <h1 class="mb-4 animate fade-up text-white">{{ hero.title }}</h1>
+            {% if hero.support %}
+              {{ hero.support }}
+            {% endif %}
           </div>
         </div>
       </div>
