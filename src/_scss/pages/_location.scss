@@ -107,3 +107,12 @@
     height: 100%;
   }
 }  
+
+.loc-list {
+
+  border-left: 1px solid $cyan;
+
+  p { color: $blue; }
+
+  a { color: $cyan; }
+}

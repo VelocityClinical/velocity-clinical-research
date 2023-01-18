@@ -1,0 +1,15 @@
+<div class="block mb-5">
+  {% for location in locations %}
+  {% if location.non_usa != 'true' %}
+  {% if location.active != 'false' %}
+  <div class="row mb-3 loc-list">
+    <div class="col-6">
+      <p class="mb-0"><strong>{{ location.title }}</strong></p>
+    </div>
+    <div class="col-6"><a href="/locations/{{ location.slug }}" class="" target="_blank">Visit Website <img
+          src="/img/button-arrow.svg" alt="Arrow icon"></a></div>
+  </div>
+  {% endif %}
+  {% endif %}
+  {% endfor %}
+</div>
