@@ -108,11 +108,44 @@
   }
 }  
 
+#location-styles {
+  h2 {
+    color: $cyan;
+    font-weight: bold;
+  }
+}
+
 .loc-list {
 
   border-left: 1px solid $cyan;
 
   p { color: $blue; }
 
-  a { color: $cyan; }
+  span { color: $cyan; text-decoration: underline; }
+}
+
+#location-back {
+  display: none;
+  color: $white;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 50px;
+  background-color: $blue;
+  width: 120px;
+  padding-left:20px;
+  position: fixed;
+  right: 0;
+  top: 75%;
+  border: 1px solid $blue;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  img {
+    height: 20;
+    display: none;
+    width: auto;
+    margin-right: 6px;
+  }
+  a {
+    color: $white;
+  }
 }
