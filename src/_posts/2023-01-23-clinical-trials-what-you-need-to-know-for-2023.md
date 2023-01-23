@@ -2,7 +2,8 @@
 layout: post
 title: 'Clinical Trials: What You Need to Know for 2023'
 post_date: 2023-01-23 00:00:00
-featured_image:
+featured_image: >-
+  /uploads/clinical-trials-what-you-need-to-know-for-2023/velocity-2023-trendsdesign2-cover.png
 categories:
   - Patients
 author:
