@@ -8,6 +8,6 @@ author:
 summary_text:
 source:
 source_url: >-
-  https://finance.yahoo.com/finance/news/velocity-clinical-research-acquires-meridian-110000108.html
+  https://wraltechwire.com/2022/12/15/durham-based-velocity-were-worlds-largest-clinical-research-network-after-latest-deal/
 related_locations:
 ---
